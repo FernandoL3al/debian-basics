@@ -58,7 +58,7 @@ sudo apt install -y bluez blueman
 sudo systemctl enable bluetooth
 
 # Packages needed for bspwm installation
-sudo apt install -y bspwm dmenu sxhkd picom numlockx rofi dunst libnotify-bin unzip geany scrot
+sudo apt install -y bspwm dmenu sxhkd picom numlockx rofi dunst libnotify-bin unzip geany scrot xarchiver
 
 # Command line text editor -- nano preinstalled 
 sudo apt install -y micro
