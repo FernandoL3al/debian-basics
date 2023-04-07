@@ -92,12 +92,9 @@ function PERSONA_DEBIAN()
 			clear
 			echo "#---------------------Copiar personalizações para Debian---------------------#"
 				cp -rf /tmp/debian-basics/home/debian/.fehbg $HOME
-				cp -rf /tmp/debian-basics/home/xubuntu/Thunar/ ~/.config
-				cp -rf /tmp/debian-basics/home/xubuntu/sxhkd/ ~/.config
 				mkdir ~/.config/neofetch
+				cp -rf /tmp/debian-basics/home/50-touchpad.conf /etc/X11/xorg.conf.d/
 				cp -rf /tmp/debian-basics/home/debian/config.conf ~/.config/neofetch
-				cp -rf /tmp/debian-basics/home/xubuntu/powermenu ~/.config/bspwm/rofi/bin
-				cp -rf /tmp/debian-basics/home/debian/powermenu.rasi ~/.config/bspwm/rofi/themes
 				sudo cp -rf /tmp/debian-basics/home/debian/nordico.png /usr/share/images/desktop-base/
 				sudo cp -rf /tmp/debian-basics/home/debian/lightdm-gtk-greeter.conf /etc/lightdm/ &&
 			clear &&

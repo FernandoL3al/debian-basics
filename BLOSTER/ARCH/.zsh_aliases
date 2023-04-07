@@ -1,0 +1,40 @@
+alias poly='killall polybar && bash ~/.config/bspwm/themes/classic/polybar/launch.sh'
+
+
+### Abre com micro
+alias aliasconf='micro ~/.zsh_aliases && source .zsh_aliases'
+
+### Comandos
+
+alias update='echo "\t\tATUALIZANDO O ARCHCRAFT\n\n" && sleep 3  && sudo pacman -Syu'
+alias zathura='zathura-pywal &'
+alias geany='micro'
+alias ls='exa'
+#alias htop='btop'
+#alias grep='ripgrep'
+alias nano='micro'
+alias cat='bat'
+
+### edit Xsettings
+alias lealxconf='micro ~/.config/bspwm/xsettingsd && xsettingsd --config ~/.config/bspwm/xsettingsd &'
+
+### edit Picom
+
+alias lealpicom='micro ~/.config/bspwm/picom.conf'
+
+### edit Qtile
+
+alias lealqtile='micro ~/.config/qtile/config.py'
+
+
+### MISC
+alias nf='neofetch'
+
+
+### Zphisher
+alias zphisher='echo "INICIANDO O ZPISHER" && sleep 2 && bash ~/h4ck/zphisher/zphisher.sh'
+
+### PRA MEXER NO BSPWM
+alias lealbspwm='cd ~/.config/bspwm'
+
+

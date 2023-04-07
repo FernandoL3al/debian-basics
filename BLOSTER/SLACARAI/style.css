@@ -1,0 +1,19 @@
+body{
+    --back: #99aa33;
+    --font: #000; 
+    background-color: var(--back);
+    color: var(--font);
+    height: 100vh;
+}
+
+input{
+    background-color: var(--back);
+    color: var(--font);
+}
+
+button{
+    background-color: var(--back);
+    color: var(--font);
+}
+
+

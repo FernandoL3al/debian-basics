@@ -20,10 +20,10 @@ sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
 
 # File Manager (eg. pcmanfm,krusader,thunar,nautilus)
-sudo apt install -y pcmanfm
+sudo apt install -y pcmanfm ranger
 
 # Terminal (eg. terminator,kitty,xfce4-terminal)
-sudo apt install -y kitty
+sudo apt install -y alacritty
 
 # Sound packages
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
@@ -38,26 +38,23 @@ sudo apt install -y network-manager network-manager-gnome
 sudo apt install -y lxappearance 
 
 # Browser Installation (eg. chromium)
-sudo apt install -y firefox-esr 
+sudo apt install -y qutebrowser 
 
 # Desktop background browser/handler 
 # feh --bg-fill /path/to/directory 
 # sudo apt install -y nitrogen 
 sudo apt install -y feh
  
-# Fonts and icons for now
-sudo apt install -y fonts-firacode fonts-liberation2 fonts-ubuntu papirus-icon-theme fonts-cascadia-code
-
 # EXA installation
 # replace ls command in .bashrc file with line below
 # alias ls='exa -al --long --header --color=always --group-directories-first' 
-sudo apt install -y exa
+sudo apt install -y exa bat 
 
 # Printing and bluetooth (if needed)
-sudo apt install -y cups system-config-printer simple-scan
+# sudo apt install -y cups system-config-printer simple-scan
 sudo apt install -y bluez blueman
 
-sudo systemctl enable cups
+# sudo systemctl enable cups
 sudo systemctl enable bluetooth
 
 # Packages needed for bspwm installation
@@ -69,11 +66,6 @@ sudo apt install -y micro
 
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
-
-mkdir -p ~/.config/{bspwm,sxhkd,dunst}
-
-install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
-install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 
 # Install Lightdm Console Display Manager
 sudo apt install -y lightdm lightdm-gtk-greeter-settings
@@ -87,7 +79,7 @@ sudo systemctl enable lightdm
 ## These two scripts will install nerdfonts and copy my configuration files into the ~/.config directory
 ## Configuration uses 
 
-source ~/debian-installers/nerdfonts.sh
+source /tmp/debian-basics/dpux.sh
 
 
 sudo apt autoremove

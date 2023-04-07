@@ -1,0 +1,45 @@
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+## Incremented by Fernando L3al <github.com/FernandoL3al.com>
+
+Net/ThemeName "Gruvbox"
+Net/IconThemeName "Luna-Dark"
+Gtk/CursorThemeName "Future-Dark"
+Net/EnableEventSounds "1"
+Net/EnableInputFeedbackSounds "1"
+Xft/DPI "-1"
+Xft/Hinting 1
+Xft/HintStyle "hintslight"
+Xft/Antialias 1
+Xft/RGBA "vrgb"
+
+#----------------  THEMES -------------------
+# Adapta-Nokto      Dracula           Raleigh          Adapta-Nokto-Eta                  
+# Adwaita           FlatColor         Rick             Adwaita-dark      
+# Groot             Slime             Arc              Emacs 
+# Gruvbox           Hack              Spark            Sweet-Dark
+# Arc-Dark          HighContrast      Juno-mirage      Arc-Easy          
+# Arc-Darker        Wave              Arc-Lighter      Windows-10
+# Juno-palenight    Windows-10-Dark   Blade            Manhattan
+# Kripton           White             Windows-11-Leal  Nordic
+# Windows-11        PixelOldSchool    ColdMotif
+#
+#
+#------------- ICONS -------------------
+# Adwaita           locolor              Numix-Apps        Zafiro
+# Arc-Circle        Luna                 Numix-Apps-White  Zafiro-Blue
+# Archcraft         Luna-Dark            Papirus-Apps      Zafiro-Blue-Dark
+# Archcraft-Dark    Luna-Light           Zafiro-Dark       Zafiro-Purple
+# elementary        Luv-Folders          Qogir             Zafiro-Green
+# flattrcolor       Luv-Folders-Dark     Qogir-Dark        Zafiro-Green-Dark
+# flattrcolor-dark  Zafiro-Purple-Dark   Zafiro-Red        Zafiro-Red-Dark
+# Tango             Zafiro-Yellow        Hack              Zafiro-Yellow-Dark
+# hicolor           White-Folders        HighContrast      Win11
+# Nordic-Folders    Win11-Dark
+
+
+#------------- CURSORS -----------------------
+# Fluent              Fluent-Dark       Future        Material-Dark
+# Future-Dark         Layan             LyraP         Pear
+# LyraF               LyraQ             LyraS         Qogirr 
+# LyraB               LyraY             Material      Qogirr-Dark
+# Sweet               Vimix             Vimix-Dark

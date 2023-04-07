@@ -3,6 +3,20 @@
 
 stty -ixon # Disables ctrl-s and ctrl-q (Used To Pause Term) 
 
+# Convert Nala to Apt
+apt() { 
+  command nala "$@"
+}
+sudo() {
+  if [ "$1" = "apt" ]; then
+    shift
+    command sudo nala "$@"
+  else
+    command sudo "$@"
+  fi
+}
+
+
 # Aliases
 alias ..='cd ..' 
 alias ...='cd ../..' 
@@ -21,11 +35,14 @@ alias bs='micro ~/.bashrc'
 alias reload='source ~/.bashrc'
 alias v="nvim"
 alias e="micro"
+alias nano="micro"
 alias gc="git clone"
 
 # Dunst
 alias hi="notify-send 'Hi there!' 'Welcome to my Bspwm desktop! ' -i ''"
 
+# BatCat
+alias cat="batcat"
 
 # Add Color
 alias egrep='grep --color=auto' 
